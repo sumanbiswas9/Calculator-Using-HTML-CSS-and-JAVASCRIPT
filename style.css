@@ -1,0 +1,122 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: #2c2c2c;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.calculator {
+    border: 2px rgb(50, 116, 155);
+    width: 100%;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    width: 350px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 60px 80px rgba(0, 0, 0, 0.60), 0 45px 26px rgba(0, 0, 0, 0.14);
+}
+
+#display {
+    width: 300px;
+    height: 35px;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 50px;
+
+
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.digit {
+    width: 75px;
+    height: 75px;
+    margin: 6px;
+    border-radius: 100%;
+    background-color: rgb(50, 64, 65);
+    border: none;
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    font-family: monospace, Courier;
+}
+
+.operator {
+    width: 75px;
+    height: 75px;
+    margin: 6px;
+    border-radius: 100%;
+    border: none;
+    color: white;
+    background-color: rgb(253, 156, 11);
+    font-size: 30px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    font-family: monospace, Courier;
+
+}
+
+.action {
+    width: 75px;
+    height: 75px;
+    margin: 6px;
+    border-radius: 100%;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(177, 175, 175);
+    font-size: 30px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    font-family: monospace, Courier;
+}
+
+#zero {
+    width: 150px;
+    height: 75px;
+    margin: 6px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(50, 64, 65);
+    font-size: 30px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    font-family: monospace, Courier;
+
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 30px 45px -15px rgba(0, 111, 255, 0.6);
+}
+
+.action:hover {
+    background-color: rgb(119, 115, 115);
+}
+
+.digit:hover {
+    background-color: rgb(34, 31, 31);
+}
+
+#zero:hover {
+    background-color: rgb(34, 31, 31);
+}
+
+.operator:hover {
+    background-color: rgb(161, 95, 9);
+}

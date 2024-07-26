@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="calculator">
+            <input type="text" id="display" readonly>
+            <div class="buttons">
+                <button class="action btn" onclick="clearDisplay()">AC</button>
+                <button class="action btn" onclick="deleteLast()">DEL</button>
+                <button class="action btn" onclick="takeNumber('%')">MOD</button>
+                <button class="operator btn" onclick="takeNumber('/')">/</button>
+                <button class="digit btn" onclick="takeNumber('7')">7</button>
+                <button class="digit btn" onclick="takeNumber('8')">8</button>
+                <button class="digit btn" onclick="takeNumber('9')">9</button>
+                <button class="operator btn" onclick="takeNumber('*')">*</button>
+                <button class="digit btn" onclick="takeNumber('4')">4</button>
+                <button class="digit btn" onclick="takeNumber('5')">5</button>
+                <button class="digit btn" onclick="takeNumber('6')">6</button>
+                <button class="operator btn" onclick="takeNumber('-')">-</button>
+                <button class="digit btn" onclick="takeNumber('1')">1</button>
+                <button class="digit btn" onclick="takeNumber('2')">2</button>
+                <button class="digit btn" onclick="takeNumber('3')">3</button>
+                <button class="operator btn" onclick="takeNumber('+')">+</button>
+                <button id="zero" class="btn" onclick="takeNumber('0')">0</button>
+                <button class="digit btn" onclick="takeNumber('.')">.</button>
+                <button class="operator btn" onclick="calculation()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
