@@ -23,4 +23,5 @@ To use this calculator, simply clone the repository and open the `index.html` fi
 
 ```bash
 git clone https://github.com/sumanbiswas9/Calculator-Using-HTML-CSS-and-JAVASCRIPT.git
+cd Calculator-Using-HTML-CSS-and-JAVASCRIPT
 open index.html
